@@ -17,6 +17,7 @@ public class Baek_1874 {
 
         for (int i = 0; i < testCase; i++) {
             input[i] = Integer.parseInt(br.readLine());
+
             if (isAble) {
                 if (m <= input[i]) {
                     while (m <= input[i]) {
