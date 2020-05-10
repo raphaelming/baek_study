@@ -21,7 +21,8 @@ public class Baek_9012 {
                 } else {
                     if (!stack.isEmpty()) {
                         stack.pop();
-                    } else {
+                    }
+                    else {
                         isVPS = false;
                         break;
                     }
