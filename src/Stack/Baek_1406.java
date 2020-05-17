@@ -20,19 +20,19 @@ public class Baek_1406 {
             String inputCommand = st.nextToken();
             switch (inputCommand) {
                 case "L":
-                    if (leftStack.size() > 0) {
+                    if (!leftStack.isEmpty()) {
                         rightStack.push(leftStack.peek());
                         leftStack.pop();
                     }
                     break;
                 case "D":
-                    if (rightStack.size() > 0) {
+                    if (!rightStack.isEmpty()) {
                         leftStack.push(rightStack.peek());
                         rightStack.pop();
                     }
                     break;
                 case "B":
-                    if (leftStack.size() > 0) {
+                    if (!leftStack.isEmpty()) {
                         leftStack.pop();
                     }
                     break;
