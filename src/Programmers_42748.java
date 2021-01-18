@@ -1,5 +1,5 @@
 import java.util.Arrays;
-class Solution {
+class Programmers_42748 {
     public int[] solution(int[] array, int[][] commands) {
         int[] answer = {};
         int col = commands.length;
