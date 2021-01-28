@@ -1,6 +1,6 @@
 
 
-class Programmers_42862 {
+class Solution {
 
 
     public int solution(int n, int[] lost, int[] reserve) {
@@ -34,10 +34,10 @@ class Programmers_42862 {
         return answer;
     }
     public static void main(String[] args) {
-        Solution2 solution2 = new Solution2();
+        Solution solution = new Solution();
         int n = 5;
         int[] lost = {2, 4};
         int[] reserve = {3};
-        solution2.solution(n, lost, reserve);
+        solution.solution(n, lost, reserve);
     }
 }
